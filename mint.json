@@ -1,85 +1,162 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Solayer Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/images/logo-dark.svg",
+    "light":  "/images/logo-light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "primary": "#084D3E",
+    "light": "#A4E58F",
+    "dark": "#084D3E"
+  },
+  "theme": "prism",
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": true,
+    "thumbsRating": true
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Discord",
+      "url": "https://discord.com/invite/solayerlabs"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Launch App",
+    "url": "https://app.solayer.org"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Community",
+      "url": "community"
+    }, 
+    {
+      "name": "Developers",
+      "url": "developers"
     }
   ],
   "anchors": [
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.solayer.org"
+    },
+    {
+      "name": "Website",
+      "icon": "globe",
+      "url": "https://solayer.org"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "discord",
+      "url": "https://discord.com/invite/solayerlabs"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "https://twitter.com/solayer_labs"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "getting-started/introduction",
+        "getting-started/why-on-solana",
+        "getting-started/first-principles", 
+        "getting-started/faqs", 
+        {
+          "group": "Usage",
+          "pages": [
+            "getting-started/using/ledger",
+            "getting-started/using/phantom"
+          ]
+        }
       ]
     },
     {
-      "group": "Essentials",
+      "group": "sSOL",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "ssol/what-is-ssol",
+        "ssol/liquidity",
+        "ssol/ssol-in-defi",
+        "ssol/trading-rewards"
+      ]
+    }, 
+    {
+      "group": "Endogenous AVS",
+      "pages": [
+        "endogenous-avs/overview",
+        "endogenous-avs/what-is-an-avs",
+        "endogenous-avs/quality-of-service",
+        "endogenous-avs/delegate-tokens"
+      ]
+    }, 
+     {
+      "group": "Restaking",
+      "pages": [
+        "restaking/overview",
+        {
+          "group": "Native SOL Restaking",
+          "pages": [
+            "restaking/native-sol-restaking/overview",
+            "restaking/native-sol-restaking/tutorial"
+          ]
+        },
+        {
+          "group": "LST Restaking",
+          "pages": [
+            "restaking/lst-restaking/overview",
+            "restaking/lst-restaking/tutorial"
+          ]
+        },
+        {
+          "group": "Unstake sSOL",
+          "pages": [
+            "restaking/unstake-ssol/overview",
+            "restaking/unstake-ssol/tutorial"
+          ]
+        },
+        "restaking/delegation"
+       
+      ]
+    }, 
+    {
+      "group": "Restaking Epochs",
+      "pages": [
+        "community/restaking-epochs/overview",
+        "community/restaking-epochs/epoch-0",
+        "community/restaking-epochs/epoch-1", 
+        "community/restaking-epochs/epoch-2"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Solayer Valley Episodes",
       "pages": [
-        "api-reference/introduction"
+        "community/solayer-valley-episodes/overview",
+        "community/solayer-valley-episodes/episode-1",
+        "community/solayer-valley-episodes/eligibility-guide",
+        "community/solayer-valley-episodes/rewards-claiming-guide",
+        "community/solayer-valley-episodes/unstaking-credit-deduction"
       ]
-    },
+    }, 
     {
-      "group": "Endpoint Examples",
+      "group": "Builders",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "developers/for-builders/architecture",
+        "developers/for-builders/building-on-solayer",
+        "developers/for-builders/solayer-programs"
+      ]
+    }, 
+    {
+      "group": "Security",
+      "pages": [
+        "developers/security/overview",
+        "developers/security/audits",
+        "developers/security/multisig-committee",
+        "developers/security/bounties"
       ]
     }
   ],
