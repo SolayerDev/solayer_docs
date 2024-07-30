@@ -35,6 +35,10 @@
     {
       "name": "Developers",
       "url": "developers"
+    },
+    {
+      "name": "Informational",
+      "url": "informational"
     }
   ],
   "anchors": [
@@ -86,7 +90,7 @@
       ]
     }, 
     {
-      "group": "Endogenous AVS",
+      "group": "Endogenous AVS (Delegates)",
       "pages": [
         "endogenous-avs/overview",
         "endogenous-avs/what-is-an-avs",
@@ -143,7 +147,7 @@
       ]
     }, 
     {
-      "group": "Builders",
+      "group": "",
       "pages": [
         "developers/for-builders/architecture",
         "developers/for-builders/building-on-solayer",
@@ -157,6 +161,13 @@
         "developers/security/audits",
         "developers/security/multisig-committee",
         "developers/security/bounties"
+      ]
+    },
+    {
+      "group": "",
+      "pages": [
+        "informational/brand-kit",
+        "informational/partnerships"
       ]
     }
   ],
