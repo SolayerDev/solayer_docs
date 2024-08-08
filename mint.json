@@ -17,6 +17,20 @@
     "raiseIssue": true,
     "thumbsRating": true
   },
+"tabs": [
+  {
+    "name": "Security",
+    "url": "security"
+},
+    {
+        "name": "Resources",
+        "url": "resources"
+    },
+    {
+        "name": "Blog",
+        "url": "https://solayer.org/blog"
+    }
+],
   "topbarLinks": [
     {
       "name": "Discord",
@@ -27,26 +41,7 @@
     "name": "Launch App",
     "url": "https://app.solayer.org"
   },
-  "tabs": [
-    {
-      "name": "Community",
-      "url": "community"
-    }, 
-    {
-      "name": "Developers",
-      "url": "developers"
-    },
-    {
-      "name": "Informational",
-      "url": "informational"
-    }
-  ],
   "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://docs.solayer.org"
-    },
     {
       "name": "Website",
       "icon": "globe",
@@ -63,114 +58,112 @@
       "url": "https://twitter.com/solayer_labs"
     }
   ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "getting-started/introduction",
-        "getting-started/why-on-solana",
-        "getting-started/first-principles", 
-        "getting-started/faqs", 
-        {
-          "group": "Usage",
-          "pages": [
-            "getting-started/using/ledger",
-            "getting-started/using/phantom"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "sSOL",
-      "pages": [
-        "ssol/what-is-ssol",
-        "ssol/liquidity",
-        "ssol/ssol-in-defi",
-        "ssol/trading-rewards"
-      ]
-    }, 
-    {
-      "group": "Endogenous AVS (Delegates)",
-      "pages": [
-        "endogenous-avs/overview",
-        "endogenous-avs/what-is-an-avs",
-        "endogenous-avs/quality-of-service",
-        "endogenous-avs/delegate-tokens"
-      ]
-    }, 
-     {
-      "group": "Restaking",
-      "pages": [
-        "restaking/overview",
-        {
-          "group": "Native SOL Restaking",
-          "pages": [
-            "restaking/native-sol-restaking/overview",
-            "restaking/native-sol-restaking/tutorial"
-          ]
-        },
-        {
-          "group": "LST Restaking",
-          "pages": [
-            "restaking/lst-restaking/overview",
-            "restaking/lst-restaking/tutorial"
-          ]
-        },
-        {
-          "group": "Unstake sSOL",
-          "pages": [
-            "restaking/unstake-ssol/overview",
-            "restaking/unstake-ssol/tutorial"
-          ]
-        },
-        "restaking/delegation"
-       
-      ]
-    }, 
-    {
-      "group": "Restaking Epochs",
-      "pages": [
-        "community/restaking-epochs/overview",
-        "community/restaking-epochs/epoch-0",
-        "community/restaking-epochs/epoch-1", 
-        "community/restaking-epochs/epoch-2"
-      ]
-    },
-    {
-      "group": "Solayer Valley Episodes",
-      "pages": [
-        "community/solayer-valley-episodes/overview",
-        "community/solayer-valley-episodes/episode-1",
-        "community/solayer-valley-episodes/eligibility-guide",
-        "community/solayer-valley-episodes/rewards-claiming-guide",
-        "community/solayer-valley-episodes/unstaking-credit-deduction"
-      ]
-    }, 
-    {
-      "group": "",
-      "pages": [
-        "developers/for-builders/architecture",
-        "developers/for-builders/building-on-solayer",
-        "developers/for-builders/solayer-programs"
-      ]
-    }, 
-    {
-      "group": "Security",
-      "pages": [
-        "developers/security/overview",
-        "developers/security/audits",
-        "developers/security/multisig-committee",
-        "developers/security/bounties"
-      ]
-    },
-    {
-      "group": "",
-      "pages": [
-        "informational/brand-kit",
-        "informational/partnerships"
-      ]
-    }
-  ],
+"navigation": [
+  {
+    "group": "Get Started",
+    "pages": [
+      "getting-started/introduction",
+      "getting-started/why-on-solana",
+      "getting-started/first-principles", 
+      "getting-started/faqs"
+    ]
+  },
+  {
+    "group": "Protocol Architecture",
+    "pages": [
+      "developers/for-builders/architecture",
+      "developers/for-builders/building-on-solayer",
+      "developers/for-builders/solayer-programs",
+      {
+        "group": "sSOL",
+        "pages": [
+          "ssol/what-is-ssol",
+          "ssol/liquidity",
+          "ssol/ssol-in-defi",
+          "ssol/trading-rewards"
+        ]
+      },
+      {
+        "group": "Endogenous AVS (Delegates)",
+        "pages": [
+          "endogenous-avs/overview",
+          "endogenous-avs/what-is-an-avs",
+          "endogenous-avs/quality-of-service",
+          "endogenous-avs/delegate-tokens"
+        ]
+      }
+    ]
+  },
+  {
+    "group": "Restaking Mechanism",
+    "pages": [
+      "restaking/overview",
+      {
+        "group": "Native SOL Restaking",
+        "pages": [
+          "restaking/native-sol-restaking/overview",
+          "restaking/native-sol-restaking/tutorial"
+        ]
+      },
+      {
+        "group": "LST Restaking",
+        "pages": [
+          "restaking/lst-restaking/overview",
+          "restaking/lst-restaking/tutorial"
+        ]
+      },
+      {
+        "group": "Unstake sSOL",
+        "pages": [
+          "restaking/unstake-ssol/overview",
+          "restaking/unstake-ssol/tutorial"
+        ]
+      },
+      "restaking/delegation"
+    ]
+  },
+  {
+    "group": "Ecosystem",
+    "pages": [
+      {
+        "group": "Restaking Epochs",
+        "pages": [
+          "community/restaking-epochs/overview",
+          "community/restaking-epochs/epoch-0",
+          "community/restaking-epochs/epoch-1", 
+          "community/restaking-epochs/epoch-2"
+        ]
+      },
+      {
+        "group": "Solayer Valley Episodes",
+        "pages": [
+          "community/solayer-valley-episodes/overview",
+          "community/solayer-valley-episodes/episode-1",
+          "community/solayer-valley-episodes/eligibility-guide",
+          "community/solayer-valley-episodes/rewards-claiming-guide",
+          "community/solayer-valley-episodes/unstaking-credit-deduction"
+        ]
+      }
+    ]
+  },
+  {
+    "group": "Resources",
+    "pages": [
+      "resources/brand-kit",
+      "resources/partnerships"
+    ]
+  },
+  {
+    "group": "Security",
+    "pages": [
+      "security/overview",
+      "security/audits",
+      "security/multisig-committee",
+      "security/bounties"
+    ]
+  }
+
+],
   "footerSocials": {
     "x": "https://x.com/solayer_labs",
     "github": "https://github.com/solayer-labs"
