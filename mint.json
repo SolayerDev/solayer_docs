@@ -82,44 +82,44 @@
           "ssol/ssol-in-defi",
           "ssol/trading-rewards"
         ]
-      },
+      }, 
       {
-        "group": "Endogenous AVS (Delegates)",
+        "group": "Restaking Mechanism",
         "pages": [
-          "endogenous-avs/overview",
-          "endogenous-avs/what-is-an-avs",
-          "endogenous-avs/quality-of-service",
-          "endogenous-avs/delegate-tokens"
+          "restaking/overview",
+          {
+            "group": "Native SOL Restaking",
+            "pages": [
+              "restaking/native-sol-restaking/overview",
+              "restaking/native-sol-restaking/tutorial"
+            ]
+          },
+          {
+            "group": "LST Restaking",
+            "pages": [
+              "restaking/lst-restaking/overview",
+              "restaking/lst-restaking/tutorial"
+            ]
+          },
+          {
+            "group": "Unstake sSOL",
+            "pages": [
+              "restaking/unstake-ssol/overview",
+              "restaking/unstake-ssol/tutorial"
+            ]
+          },
+          "restaking/delegation"
         ]
       }
     ]
   },
   {
-    "group": "Restaking Mechanism",
+    "group": "Endogenous AVS (Delegates)",
     "pages": [
-      "restaking/overview",
-      {
-        "group": "Native SOL Restaking",
-        "pages": [
-          "restaking/native-sol-restaking/overview",
-          "restaking/native-sol-restaking/tutorial"
-        ]
-      },
-      {
-        "group": "LST Restaking",
-        "pages": [
-          "restaking/lst-restaking/overview",
-          "restaking/lst-restaking/tutorial"
-        ]
-      },
-      {
-        "group": "Unstake sSOL",
-        "pages": [
-          "restaking/unstake-ssol/overview",
-          "restaking/unstake-ssol/tutorial"
-        ]
-      },
-      "restaking/delegation"
+      "endogenous-avs/overview",
+      "endogenous-avs/what-is-an-avs",
+      "endogenous-avs/quality-of-service",
+      "endogenous-avs/delegate-tokens"
     ]
   },
   {
