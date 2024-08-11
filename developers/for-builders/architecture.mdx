@@ -4,14 +4,56 @@ title: "Architecture"
 
 <Frame><img src="https://2113331469-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FzYM0pEemeu6F3UKGPAZE%2Fuploads%2FPgmaTJ5Tu0RfEsyaR0ZY%2Fimage.png?alt=media&token=6a87f14e-bd8a-4321-b441-44fcd019a94a" alt=""/></Frame>
 
-The restaking pool manager oversees the flow of assets into the protocol. When users deposit LST or SOL (which is first converted to sSOL-raw), they receive a fungible token representation in return. Collectively, we call them Solayer assets. Currently illiquid to facilitate points calculation for the liquidity reward program, this representation will become liquid in the future to encourage composability with DeFi.
 
-Solayer assets at this layer won't have any unbonding lockups since they unwrap into the respective LSTs. The AVS unbonding process is separately managed by the delegation manager. To offer more flexibility, Solayer allows them to design their own unbonding process with a maximum unbonding period within 2 days. Solayer will also provide an emergency exit mechanism to release the bound stake from users should the AVS cease to function.
+Solayer's architecture is designed to provide a robust, flexible, and scalable restaking solution on the Solana blockchain. This document outlines the key components and processes that form the foundation of our protocol, offering insights into how Solayer manages assets, delegates stake, and handles rewards.
 
-Stage 2 of our protocol development will enable users to pledge their Solayer assets to secure additional networks by delegating them to a Solayer operator responsible for managing the AVS nodes. Should an operator engage in malicious behavior, they will be subject to penalties, potentially resulting in a loss of the user's deposit. Consequently, users must exercise caution when selecting operators to delegate to, ensuring that they possess a trustworthy track record and fulfill the requisite criteria of the AVS.
+## Restaking Pool Manager
 
-Once delegation to SVNs and node operators is live, users will construct their restaking portfolio by selecting the node operators to delegate to and SVNs to secure. They will then be issued a non-fungible token. This token is non-fungible due to the idiosyncratic risks associated with the selected node operators and the SVNs.
+The restaking pool manager is the core component overseeing asset flow into the protocol. Its key functions include:
 
-Rewards accounting is calculated offline. Solayer has implemented a state watcher to keep track of deposits and withdrawals. Together with the invite relationship data, additional rewards will be applied to user accounts in real-time.
+- Processing user deposits of LST or SOL
+- Converting SOL to sSOL-raw
+- Issuing fungible token representations (Solayer assets)
 
-The Restake method on Solayer is permissioned and requires an additional signature from the server. This is to allow us to enforce deposit limits in the first few epochs. The Unstake method does not require an additional signature from Solayer.
+Currently, these Solayer assets are illiquid to facilitate points calculation for the liquidity reward program. Future iterations will introduce liquidity to enhance DeFi composability.
+
+## Unbonding and Delegation
+
+- Solayer assets have no unbonding lockups at the base layer
+- AVS unbonding is managed separately by the delegation manager
+- AVSs can design custom unbonding processes (max 2-day period)
+- Emergency exit mechanism available for AVS failures
+
+## Protocol Development Stages
+
+### Stage 1: Current Implementation
+
+- Focus on asset intake and conversion
+- Rewards accounting and distribution
+
+### Stage 2: Enhanced Functionality
+
+- Users can pledge Solayer assets to secure additional networks
+- Delegation to Solayer operators managing AVS nodes
+- Introduction of operator penalties for malicious behavior
+- Users construct restaking portfolios by selecting node operators and SVNs
+- Non-fungible tokens issued to represent user portfolios
+
+## Rewards and Accounting
+
+- Offline calculation of rewards
+- State watcher implementation for tracking deposits and withdrawals
+- Real-time application of additional rewards based on invite relationships
+
+## Key Protocol Methods
+
+1. Restake Method:
+   - Permissioned
+   - Requires additional server signature
+   - Enables deposit limit enforcement in initial epochs
+
+2. Unstake Method:
+   - Non-permissioned
+   - Does not require additional Solayer signature
+
+This architecture provides a robust foundation for Solayer's restaking ecosystem, balancing security, flexibility, and future expandability.

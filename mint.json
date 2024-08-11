@@ -65,7 +65,14 @@
       "getting-started/introduction",
       "getting-started/why-on-solana",
       "getting-started/first-principles", 
-      "getting-started/faqs"
+      "getting-started/faqs",
+      {
+        "group": "Usage",
+        "pages": [
+          "getting-started/using/ledger",
+          "getting-started/using/phantom"
+        ]
+      }
     ]
   },
   {
