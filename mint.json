@@ -56,6 +56,11 @@
       "name": "Twitter",
       "icon": "twitter",
       "url": "https://twitter.com/solayer_labs"
+    }, 
+    {
+      "name": "Whitepaper",
+      "icon": "file",
+      "url": "https://github.com/solayer-labs/solayer-improvement-proposal/blob/main/solayer-litepaper-v0.pdf"
     }
   ],
 "navigation": [
