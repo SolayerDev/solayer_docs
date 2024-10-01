@@ -21,15 +21,23 @@
   {
     "name": "Security",
     "url": "security"
-},
-    {
-        "name": "Resources",
-        "url": "resources"
-    },
-    {
-        "name": "Blog",
-        "url": "https://solayer.org/blog"
-    }
+  },
+  {
+    "name": "Restaking",
+    "url": "restaking"
+  },
+  {
+    "name": "endoAVS",
+    "url": "endogenous-avs"
+  },
+  {
+    "name": "sUSD (Coming Soon)",
+    "url": "https://solayer.org/platform/susd"
+  },
+  {
+    "name": "exoAVS (Coming Soon)",
+    "url": "https://solayer.org"
+  }
 ],
   "topbarLinks": [
     {
@@ -93,45 +101,23 @@
           "ssol/ssol-in-defi",
           "ssol/trading-rewards"
         ]
-      }, 
-      {
-        "group": "Restaking Mechanism",
-        "pages": [
-          "restaking/overview",
-          {
-            "group": "Native SOL Restaking",
-            "pages": [
-              "restaking/native-sol-restaking/overview",
-              "restaking/native-sol-restaking/tutorial"
-            ]
-          },
-          {
-            "group": "LST Restaking",
-            "pages": [
-              "restaking/lst-restaking/overview",
-              "restaking/lst-restaking/tutorial"
-            ]
-          },
-          {
-            "group": "Unstake sSOL",
-            "pages": [
-              "restaking/unstake-ssol/overview",
-              "restaking/unstake-ssol/tutorial"
-            ]
-          },
-          "restaking/delegation"
-        ]
       }
     ]
   },
   {
-    "group": "Endogenous AVS (Delegates)",
+    "group": "Resources",
     "pages": [
-      "endogenous-avs/overview",
-      "endogenous-avs/what-is-an-avs",
-      "endogenous-avs/quality-of-service",
-      "endogenous-avs/delegate-tokens", 
-      "endogenous-avs/cli"
+      "resources/brand-kit",
+      "resources/partnerships"
+    ]
+  },
+  {
+    "group": "Security",
+    "pages": [
+      "security/overview",
+      "security/audits",
+      "security/multisig-committee",
+      "security/bounties"
     ]
   },
   {
@@ -159,22 +145,43 @@
     ]
   },
   {
-    "group": "Resources",
+    "group": "Restaking Mechanism",
     "pages": [
-      "resources/brand-kit",
-      "resources/partnerships"
+      "restaking/overview",
+      {
+        "group": "Native SOL Restaking",
+        "pages": [
+          "restaking/native-sol-restaking/overview",
+          "restaking/native-sol-restaking/tutorial"
+        ]
+      },
+      {
+        "group": "LST Restaking",
+        "pages": [
+          "restaking/lst-restaking/overview",
+          "restaking/lst-restaking/tutorial"
+        ]
+      },
+      {
+        "group": "Unstake sSOL",
+        "pages": [
+          "restaking/unstake-ssol/overview",
+          "restaking/unstake-ssol/tutorial"
+        ]
+      },
+      "restaking/delegation"
     ]
   },
   {
-    "group": "Security",
+    "group": "Endogenous AVS (Delegates)",
     "pages": [
-      "security/overview",
-      "security/audits",
-      "security/multisig-committee",
-      "security/bounties"
+      "endogenous-avs/overview",
+      "endogenous-avs/what-is-an-avs",
+      "endogenous-avs/quality-of-service",
+      "endogenous-avs/delegate-tokens", 
+      "endogenous-avs/cli"
     ]
   }
-
 ],
   "footerSocials": {
     "x": "https://x.com/solayer_labs",
