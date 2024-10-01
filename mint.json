@@ -19,10 +19,6 @@
   },
 "tabs": [
   {
-    "name": "Security",
-    "url": "security"
-  },
-  {
     "name": "Restaking",
     "url": "restaking"
   },
@@ -31,7 +27,7 @@
     "url": "endogenous-avs"
   },
   {
-    "name": "sUSD (Coming Soon)",
+    "name": "sUSD",
     "url": "https://solayer.org/platform/susd"
   },
   {
