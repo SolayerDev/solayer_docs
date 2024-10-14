@@ -28,7 +28,7 @@
   },
   {
     "name": "sUSD",
-    "url": "https://solayer.org/platform/susd"
+    "url": "susd"
   },
   {
     "name": "exoAVS (Coming Soon)",
@@ -86,9 +86,9 @@
   {
     "group": "Protocol Architecture",
     "pages": [
-      "developers/for-builders/architecture",
-      "developers/for-builders/building-on-solayer",
-      "developers/for-builders/solayer-programs",
+      "developers/architecture",
+      "developers/building-on-solayer",
+      "developers/solayer-programs",
       {
         "group": "sSOL",
         "pages": [
@@ -166,6 +166,37 @@
         ]
       },
       "restaking/delegation"
+    ]
+  },
+  {
+    "group": "Stablecoin Restaking",
+    "pages": [
+      "susd/what-is-susd",
+      "susd/features"
+    ]
+  },
+  {
+    "group": "Decentralized RFQ Protocol",
+    "pages": [
+      "susd/decentralized-rfq/overview",
+      "susd/decentralized-rfq/stakeholders",
+      {
+        "group": "RFQ Process",
+        "pages": [
+          "susd/decentralized-rfq/rfq-overview",
+          "susd/decentralized-rfq/subscription",
+          "susd/decentralized-rfq/redemption"
+        ]
+      }
+    ]
+  },
+  {
+    "group": "Protocol Info",
+    "pages": [
+      "susd/protocol-info/transparency",
+      "susd/protocol-info/risks",
+      "susd/protocol-info/audits",
+      "susd/protocol-info/faqs"
     ]
   },
   {
