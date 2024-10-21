@@ -132,10 +132,22 @@
         "group": "Solayer Valley Episodes",
         "pages": [
           "community/solayer-valley-episodes/overview",
-          "community/solayer-valley-episodes/episode-1",
-          "community/solayer-valley-episodes/eligibility-guide",
-          "community/solayer-valley-episodes/rewards-claiming-guide",
-          "community/solayer-valley-episodes/unstaking-credit-deduction"
+          {
+            "group": "Episode 1",
+            "pages": [
+              "community/solayer-valley-episodes/episode-1/episode-1",
+              "community/solayer-valley-episodes/episode-1/eligibility-guide",
+              "community/solayer-valley-episodes/episode-1/rewards-claiming-guide"
+            ]
+          },
+          {
+            "group": "Episode 2",
+            "pages": [
+              "community/solayer-valley-episodes/episode-2/episode-2",
+              "community/solayer-valley-episodes/episode-2/eligibility-guide",
+              "community/solayer-valley-episodes/episode-2/rewards-claiming-guide"
+            ]
+          }
         ]
       }
     ]
