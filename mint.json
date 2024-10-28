@@ -206,6 +206,7 @@
     "group": "Protocol Info",
     "pages": [
       "susd/protocol-info/transparency",
+      "susd/protocol-info/restrictions",
       "susd/protocol-info/risks",
       "susd/protocol-info/audits",
       "susd/protocol-info/faqs"
