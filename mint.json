@@ -180,12 +180,6 @@
       "restaking/delegation"
     ]
   },
-  
-  {
-    "group": "sUSD-litepaper"
-
-  },
-
   {
     "group": "Stablecoin Restaking",
     "pages": [
