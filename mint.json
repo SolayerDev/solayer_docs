@@ -207,7 +207,7 @@
     "group": "Protocol Info",
     "pages": [
       "susd/protocol-info/transparency",
-      "susd/protocol-info/redemption-price.mdx",
+      "susd/protocol-info/redemption-price",
       "susd/protocol-info/restrictions",
       "susd/protocol-info/risks",
       "susd/protocol-info/audits",
