@@ -147,6 +147,13 @@
               "community/solayer-valley-episodes/episode-2/eligibility-guide",
               "community/solayer-valley-episodes/episode-2/rewards-claiming-guide"
             ]
+          },
+          {
+            "group": "Episode 3",
+            "pages": [
+              "community/solayer-valley-episodes/episode-3/savings-account",
+              "community/solayer-valley-episodes/episode-3/unlocking-guide"
+            ]
           }
         ]
       }
