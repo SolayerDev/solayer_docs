@@ -19,8 +19,8 @@
   },
 "tabs": [
   {
-    "name": "Restaking",
-    "url": "restaking"
+    "name": "Deposits",
+    "url": "deposits"
   },
   {
     "name": "endoAVS",
@@ -117,7 +117,7 @@
     "group": "Ecosystem",
     "pages": [
       {
-        "group": "Restaking Epochs",
+        "group": "Epochs",
         "pages": [
           "community/epochs/overview",
           "community/epochs/epoch-0",
