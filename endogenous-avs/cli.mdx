@@ -3,7 +3,7 @@ title: CLI
 description: Development Kit for building with Solayer
 ---
 
-The Solayer command-line interface allows you to interact directly with Solayer's core functionalities, including restaking and managing endogenous Actively Validated Services (AVS). Whether you're a developer integrating Solayer into your project or an advanced user managing your stake, this CLI provides the tools you need.
+The Solayer command-line interface allows you to interact directly with Solayer's core functionalities, including depositing and managing endogenous Actively Validated Services (AVS). Whether you're a developer integrating Solayer into your project or an advanced user managing your stake, this CLI provides the tools you need.
 
 ## Installation
 
@@ -27,11 +27,11 @@ The Solayer command-line interface allows you to interact directly with Solayer'
 
 ## Restaking
 
-The restaking feature is at the heart of Solayer, allowing you to manage your stake efficiently. Here's how to use it:
+The deposit feature is at the heart of Solayer, allowing you to manage your stake efficiently. Here's how to use it:
 
 ### Basic Usage
 
-To start the restaking CLI tool, use:
+To start the CLI tool, use:
 
 ```
 yarn restaking
@@ -39,9 +39,9 @@ yarn restaking
 
 This command will guide you through the process interactively.
 
-### Partner Restake
+### Partner Deposit
 
-To restake native SOL through the partner API endpoint:
+To deposit native SOL through the partner API endpoint:
 
 ```
 yarn restaking --action=partnerRestake --amount=<amount> --referrer=<referrer>
@@ -56,9 +56,9 @@ Example:
 yarn restaking --action=partnerRestake --amount=10 --referrer=ABcDefG123456789
 ```
 
-### Unrestake SOL
+### Withdraw SOL
 
-To withdraw restaked native SOL:
+To withdraw native SOL:
 
 ```
 yarn restaking --action=unrestake --amount=<amount>
@@ -155,11 +155,11 @@ yarn endoavs --action=updateMetadata --name=<name> --symbol=<symbol> --uri=<uri>
 
 For those interested in the underlying mechanics, here are some key technical details:
 
-- The restaking program (sSo1iU21jBrU9VaJ8PJib1MtorefUV4fzC9GURa2KNn) manages the restaking process, including the restake and unrestake operations.
+- The pool program (sSo1iU21jBrU9VaJ8PJib1MtorefUV4fzC9GURa2KNn) manages the deposit process, including the deposit and withdrawal operations.
 - The EndoAVS program facilitates the creation and management of endogenous AVS instances.
 - Both programs involve interaction with multiple accounts, including token mints, user token accounts, vaults, and pools.
 
-For more detailed information, refer to our Restaking Program IDL and EndoAVS Program IDL.
+For more detailed information, refer to our Pool Program IDL and EndoAVS Program IDL.
 
 
 

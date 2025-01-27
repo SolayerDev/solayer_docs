@@ -29,10 +29,6 @@
   {
     "name": "sUSD",
     "url": "susd"
-  },
-  {
-    "name": "exoAVS (Coming Soon)",
-    "url": "https://solayer.org"
   }
 ],
   "topbarLinks": [
@@ -123,37 +119,37 @@
       {
         "group": "Restaking Epochs",
         "pages": [
-          "community/restaking-epochs/overview",
-          "community/restaking-epochs/epoch-0",
-          "community/restaking-epochs/epoch-1", 
-          "community/restaking-epochs/epoch-2"
+          "community/epochs/overview",
+          "community/epochs/epoch-0",
+          "community/epochs/epoch-1", 
+          "community/epochs/epoch-2"
         ]
       },
       {
         "group": "Solayer Valley Episodes",
         "pages": [
-          "community/solayer-valley-episodes/overview",
+          "community/milestones/overview",
           {
             "group": "Episode 1",
             "pages": [
-              "community/solayer-valley-episodes/episode-1/episode-1",
-              "community/solayer-valley-episodes/episode-1/eligibility-guide",
-              "community/solayer-valley-episodes/episode-1/rewards-claiming-guide"
+              "community/milestones/episode-1/episode-1",
+              "community/milestones/episode-1/eligibility-guide",
+              "community/milestones/episode-1/rewards-claiming-guide"
             ]
           },
           {
             "group": "Episode 2",
             "pages": [
-              "community/solayer-valley-episodes/episode-2/episode-2",
-              "community/solayer-valley-episodes/episode-2/eligibility-guide",
-              "community/solayer-valley-episodes/episode-2/rewards-claiming-guide"
+              "community/milestones/episode-2/episode-2",
+              "community/milestones/episode-2/eligibility-guide",
+              "community/milestones/episode-2/rewards-claiming-guide"
             ]
           },
           {
-            "group": "Episode 3",
+            "group": "Savings Account",
             "pages": [
-              "community/solayer-valley-episodes/episode-3/savings-account",
-              "community/solayer-valley-episodes/episode-3/unlocking-guide"
+              "community/milestones/savings-account/savings-account",
+              "community/milestones/savings-account/unlocking-guide"
             ]
           }
         ]
@@ -161,35 +157,36 @@
     ]
   },
   {
-    "group": "Restaking Mechanism",
+    "group": "Deposits",
     "pages": [
-      "restaking/overview",
+      "deposits/overview",
       {
-        "group": "Native SOL Restaking",
+        "group": "Native SOL deposits",
         "pages": [
-          "restaking/native-sol-restaking/overview",
-          "restaking/native-sol-restaking/tutorial"
+          "deposits/native-sol/overview",
+          "deposits/native-sol/tutorial"
         ]
       },
       {
-        "group": "LST Restaking",
+        "group": "LSTs",
         "pages": [
-          "restaking/lst-restaking/overview",
-          "restaking/lst-restaking/tutorial"
+          "deposits/lst/overview",
+          "deposits/lst/tutorial"
         ]
       },
       {
-        "group": "Unstake sSOL",
+        "group": "Withdraw sSOL",
         "pages": [
-          "restaking/unstake-ssol/overview",
-          "restaking/unstake-ssol/tutorial"
+          "deposits/withdraw-ssol/overview",
+          "deposits/withdraw-ssol/tutorial"
         ]
       },
-      "restaking/delegation"
+      "deposits/delegation",
+      "deposits/apy"
     ]
   },
   {
-    "group": "Stablecoin Restaking",
+    "group": "Stablecoin",
     "pages": [
       "susd/what-is-susd",
       "susd/features",

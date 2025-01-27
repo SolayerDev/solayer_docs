@@ -5,11 +5,11 @@ title: "Architecture"
 <Frame><img src="https://2113331469-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FzYM0pEemeu6F3UKGPAZE%2Fuploads%2FPgmaTJ5Tu0RfEsyaR0ZY%2Fimage.png?alt=media&token=6a87f14e-bd8a-4321-b441-44fcd019a94a" alt=""/></Frame>
 
 
-Solayer's architecture is designed to provide a robust, flexible, and scalable restaking solution on the Solana blockchain. This document outlines the key components and processes that form the foundation of our protocol, offering insights into how Solayer manages assets, delegates stake, and handles rewards.
+Solayer's architecture is designed to provide a robust, flexible, and scalable infrastructure solutions on the Solana blockchain. This document outlines the key components and processes that form the foundation of our protocol, offering insights into how Solayer manages assets, delegates stake, and handles rewards.
 
-## Restaking Pool Manager
+## Pool Manager
 
-The restaking pool manager is the core component overseeing asset flow into the protocol. Its key functions include:
+The pool manager is the core component overseeing asset flow into the protocol. Its key functions include:
 
 - Processing user deposits of LST or SOL
 - Converting SOL to sSOL-raw
@@ -33,27 +33,13 @@ Currently, these Solayer assets are illiquid to facilitate points calculation fo
 
 ### Stage 2: Enhanced Functionality
 
-- Users can pledge Solayer assets to secure additional networks
-- Delegation to Solayer operators managing AVS nodes
-- Introduction of operator penalties for malicious behavior
-- Users construct restaking portfolios by selecting node operators and SVNs
-- Non-fungible tokens issued to represent user portfolios
+- Users can pledge Solayer assets to secure blockspace for decentralized applications on Solana
+- Users construct portfolios by selecting specific delegates
 
 ## Rewards and Accounting
 
 - Offline calculation of rewards
 - State watcher implementation for tracking deposits and withdrawals
 - Real-time application of additional rewards based on invite relationships
-
-## Key Protocol Methods
-
-1. Restake Method:
-   - Permissioned
-   - Requires additional server signature
-   - Enables deposit limit enforcement in initial epochs
-
-2. Unstake Method:
-   - Non-permissioned
-   - Does not require additional Solayer signature
 
 This architecture provides a robust foundation for Solayer's restaking ecosystem, balancing security, flexibility, and future expandability.

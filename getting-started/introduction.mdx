@@ -1,12 +1,12 @@
 ---
 title: Introduction
-description: 'Solayer is the dominant restaking marketplace on Solana..'
+description: 'Solayer is the hardware accelerated SVM blockchain.'
 ---
 
 
-Solayer is an advanced restaking protocol built natively on Solana, designed to empower on-chain decentralized applications (dApps) with improved network bandwidth while simultaneously enhancing L1 security.
+Solayer is the hardware accelerated SVM blockchain, designed for high throughput, near-zero latency blockchain, powered by InfiniBand technology, SDN, RDMA and a multi-executor model.
 
-Our primary goal is to provide Solana dApps with increased capabilities for securing block space and prioritizing transaction inclusion.
+Our primary goal is to scale the SVM while providing increased capabilities for securing block space and prioritizing transaction inclusion.
 
 
 ## Core Components
@@ -16,35 +16,31 @@ Solayer's architecture comprises two main approaches:
 
 <CardGroup cols={2}>
   <Card
-    title="Restaking"
-    icon="coins"
-  >
-    ‌Leverage the economic security of SOL to secure other systems.
-  </Card>
-  <Card
-    title="Shared Validator Network"
+    title="InfiniSVM"
     icon="circle-nodes"
   >
-    Solana-centric networks sharing Solana security and infrastructure.
+    ‌The hardware accelerated SVM blockchain.
+  </Card>
+  <Card
+    title="sSOL and sUSD"
+    icon="coins"
+  >
+    Solayer denominated high-performance yield-bearing assets.
   </Card>
 </CardGroup>
 
 
-### Restaking Architecture
-The restaking component of Solayer includes:
+### Solana swQoS Architecture
+The delegation component of Solayer includes:
 
-- Restaking Pool Manager: Oversees asset flow and conversion into Solayer-specific tokens (e.g., sSOL).
+- Pool Manager: Oversees asset flow and conversion into Solayer-specific tokens (e.g., sSOL).
 - Delegation Manager: Handles stake distribution across validators and AVSs.
 - Stake Pool: Manages validator selection and MEV-boosted returns.
-
-## Shared Validator Network
-- The SVN facilitates: Cross-chain Interoperability: Allows Solana-based chains to share security.
-- Optimized Resource Allocation: Efficiently distributes network resources based on stake.
 
 ### Technical Integration
 For developers and integration partners, Solayer offers:
 
-- CLI: A command-line interface for interacting with Solayer (endoAVS and restaking)
+- CLI: A command-line interface for interacting with Solayer (endoAVS and deposits)
 - API Documentation: Comprehensive guides for interacting with Solayer contracts.
 - Smart Contract Interfaces: Well-defined interfaces for building compatible dApps.
 
@@ -70,4 +66,4 @@ To get started with Solayer, you can either use Ledger or Phantom wallet. You ca
   </Card>
 </CardGroup>
 
-We're excited to see what you'll build with Solayer. Welcome to the future of Solana-based restaking and shared validation!
+We're excited to see what you'll build with Solayer. Welcome to the future of Solana scaling and hardware acceleration!
