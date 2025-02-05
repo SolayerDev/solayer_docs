@@ -23,18 +23,18 @@
     "url": "deposits"
   },
   {
-    "name": "endoAVS",
-    "url": "endogenous-avs"
+    "name": "Assets",
+    "url": "assets"
   },
   {
-    "name": "sUSD",
-    "url": "susd"
+    "name": "Developers",
+    "url": "developers"
   }
 ],
   "topbarLinks": [
     {
       "name": "FAQs",
-      "url": "getting-started/faqs"
+      "url": "solayer/faqs"
     }
   ],
   "topbarCtaButton": {
@@ -54,179 +54,98 @@
     },
     {
       "name": "Twitter",
-      "icon": "twitter",
-      "url": "https://twitter.com/solayer_labs"
+      "icon": "x-twitter",
+      "url": "https://x.com/solayer_labs"
     }, 
     {
       "name": "Whitepaper",
       "icon": "file",
-      "url": "https://github.com/solayer-labs/solayer-improvement-proposal/blob/main/solayer-litepaper-v0.pdf"
+      "url": "https://github.com/solayer-labs/solayer-improvement-proposal/blob/main/solayer_infinisvm_litepaper.pdf"
     }
   ],
 "navigation": [
   {
-    "group": "Get Started",
+    "group": "Overview",
     "pages": [
-      "getting-started/introduction",
-      "getting-started/why-on-solana",
-      "getting-started/first-principles", 
+      "solayer/introduction",
+      "solayer/why-on-solana",
+      "solayer/first-principles",
+      "solayer/solayer-programs",
+      "solayer/security",
+      "solayer/brand-kit",
+      "solayer/faqs",
       {
         "group": "Usage",
         "pages": [
-          "getting-started/using/ledger",
-          "getting-started/using/phantom"
+          "solayer/using/ledger",
+          "solayer/using/phantom"
         ]
       }
     ]
   },
   {
-    "group": "Protocol Architecture",
+    "group": "Developers",
     "pages": [
       "developers/architecture",
-      "developers/building-on-solayer",
-      "developers/solayer-programs",
-      {
-        "group": "sSOL",
-        "pages": [
-          "ssol/what-is-ssol",
-          "ssol/liquidity",
-          "ssol/ssol-in-defi",
-          "ssol/redemption-price",
-          "ssol/trading-rewards"
-        ]
-      }
+      "developers/transaction-acceleration"
     ]
   },
   {
-    "group": "Resources",
-    "pages": [
-      "resources/brand-kit",
-      "resources/partnerships"
-    ]
-  },
-  {
-    "group": "Security",
-    "pages": [
-      "security/overview",
-      "security/audits",
-      "security/multisig-committee",
-      "security/bounties"
-    ]
-  },
-  {
-    "group": "Ecosystem",
+    "group": "Assets",
     "pages": [
       {
-        "group": "Epochs",
+        "group": "Solayer SOL (sSOL)",
         "pages": [
-          "community/epochs/overview",
-          "community/epochs/epoch-0",
-          "community/epochs/epoch-1", 
-          "community/epochs/epoch-2"
+          "assets/ssol/overview",
+          "assets/ssol/apy",
+          "assets/ssol/redemption-price",
+          "assets/ssol/delegation"
         ]
       },
       {
-        "group": "Solayer Valley Episodes",
+        "group": "Delegate",
         "pages": [
-          "community/milestones/overview",
+          "assets/delegate/overview",
+          "assets/delegate/what-is-an-avs",
+          "assets/delegate/quality-of-service",
+          "assets/delegate/delegate-tokens",
+          "assets/delegate/cli"
+        ]
+      },
+      {
+        "group": "Solayer USD (sUSD)",
+        "pages": [
+          "assets/susd/what-is-susd",
+          "assets/susd/features",
+          "assets/susd/sUSD-litepaper",
           {
-            "group": "Episode 1",
+            "group": "Decentralized RFQ Protocol",
             "pages": [
-              "community/milestones/episode-1/episode-1",
-              "community/milestones/episode-1/eligibility-guide",
-              "community/milestones/episode-1/rewards-claiming-guide"
+              "assets/susd/decentralized-rfq/overview",
+              "assets/susd/decentralized-rfq/stakeholders",
+              {
+                "group": "RFQ Process",
+                "pages": [
+                  "assets/susd/decentralized-rfq/rfq-overview",
+                  "assets/susd/decentralized-rfq/subscription",
+                  "assets/susd/decentralized-rfq/redemption"
+                ]
+              }
             ]
           },
           {
-            "group": "Episode 2",
+            "group": "Protocol Info",
             "pages": [
-              "community/milestones/episode-2/episode-2",
-              "community/milestones/episode-2/eligibility-guide",
-              "community/milestones/episode-2/rewards-claiming-guide"
-            ]
-          },
-          {
-            "group": "Savings Account",
-            "pages": [
-              "community/milestones/savings-account/savings-account",
-              "community/milestones/savings-account/unlocking-guide"
+              "assets/susd/protocol-info/transparency",
+              "assets/susd/protocol-info/redemption-price",
+              "assets/susd/protocol-info/restrictions",
+              "assets/susd/protocol-info/risks",
+              "assets/susd/protocol-info/audits",
+              "assets/susd/protocol-info/faqs"
             ]
           }
         ]
       }
-    ]
-  },
-  {
-    "group": "Deposits",
-    "pages": [
-      "deposits/overview",
-      {
-        "group": "Native SOL deposits",
-        "pages": [
-          "deposits/native-sol/overview",
-          "deposits/native-sol/tutorial"
-        ]
-      },
-      {
-        "group": "LSTs",
-        "pages": [
-          "deposits/lst/overview",
-          "deposits/lst/tutorial"
-        ]
-      },
-      {
-        "group": "Withdraw sSOL",
-        "pages": [
-          "deposits/withdraw-ssol/overview",
-          "deposits/withdraw-ssol/tutorial"
-        ]
-      },
-      "deposits/delegation",
-      "deposits/apy"
-    ]
-  },
-  {
-    "group": "Stablecoin",
-    "pages": [
-      "susd/what-is-susd",
-      "susd/features",
-      "susd/sUSD-litepaper"
-    ]
-  },
-  {
-    "group": "Decentralized RFQ Protocol",
-    "pages": [
-      "susd/decentralized-rfq/overview",
-      "susd/decentralized-rfq/stakeholders",
-      {
-        "group": "RFQ Process",
-        "pages": [
-          "susd/decentralized-rfq/rfq-overview",
-          "susd/decentralized-rfq/subscription",
-          "susd/decentralized-rfq/redemption"
-        ]
-      }
-    ]
-  },
-  {
-    "group": "Protocol Info",
-    "pages": [
-      "susd/protocol-info/transparency",
-      "susd/protocol-info/redemption-price",
-      "susd/protocol-info/restrictions",
-      "susd/protocol-info/risks",
-      "susd/protocol-info/audits",
-      "susd/protocol-info/faqs"
-    ]
-  },
-  {
-    "group": "Endogenous AVS (Delegates)",
-    "pages": [
-      "endogenous-avs/overview",
-      "endogenous-avs/what-is-an-avs",
-      "endogenous-avs/quality-of-service",
-      "endogenous-avs/delegate-tokens", 
-      "endogenous-avs/cli"
     ]
   }
 ],
