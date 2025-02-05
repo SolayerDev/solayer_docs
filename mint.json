@@ -83,6 +83,7 @@
     "group": "Protocol Architecture",
     "pages": [
       "developers/architecture",
+      "developers/transaction-acceleration",
       "developers/building-on-solayer",
       "developers/solayer-programs",
       {
