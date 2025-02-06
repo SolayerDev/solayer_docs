@@ -195,7 +195,7 @@
                     "pages": [
                         "assets/susd/protocol-info/litepaper",
                         "assets/susd/protocol-info/transparency&security",
-                        "assets/susd/protocol-info/oracle&price_feeds.mdx",
+                        "assets/susd/protocol-info/oracle&price_feeds",
                         "assets/susd/protocol-info/eligibility&risks",
                         "assets/susd/protocol-info/faqs"
                     ]
