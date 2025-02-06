@@ -1,0 +1,244 @@
+{
+    "$schema": "https://mintlify.com/schema.json",
+    "name": "Solayer Docs V2",
+    "logo": {
+        "dark": "/images/logo-dark.svg",
+        "light": "/images/logo-light.svg"
+    },
+    "favicon": "/images/favicon.jpg",
+    "colors": {
+        "primary": "#084D3E",
+        "light": "#A4E58F",
+        "dark": "#084D3E"
+    },
+    "theme": "prism",
+    "feedback": {
+        "suggestEdit": true,
+        "raiseIssue": true,
+        "thumbsRating": true
+    },
+    "tabs": [
+        {
+            "name": "InfiniSVM",
+            "url": "infinisvm"
+        },
+        {
+            "name": "Assets",
+            "url": "assets"
+        },
+        
+        {
+            "name": "Developers",
+            "url": "developers"
+        }
+    ],
+
+
+    "topbarCtaButton": {
+        "name": "Launch App",
+        "url": "https://app.solayer.org"
+    },
+    "anchors": [
+        {
+            "name": "Website",
+            "icon": "globe",
+            "url": "https://solayer.org"
+        },
+        {
+            "name": "Community",
+            "icon": "discord",
+            "url": "https://discord.com/invite/solayerlabs"
+        },
+        {
+            "name": "Twitter",
+            "icon": "twitter",
+            "url": "https://twitter.com/solayer_labs"
+        },
+        {
+            "name": "Whitepaper",
+            "icon": "file",
+            "url": "https://github.com/solayer-labs/solayer-improvement-proposal/blob/main/solayer_infinisvm_litepaper.pdf"
+        }
+    ],
+    "navigation": [
+        {
+            "group": "Get Started",
+            "pages": [
+                "documentation/get-started/introduction"
+            ]
+        },
+        {
+            "group": "Security",
+            "pages": [
+                "documentation/security/overview",
+                "documentation/security/multisignature-committees",
+                "documentation/security/audits"
+            ]
+        },
+        {
+            "group": "Resources",
+            "pages": [
+                "documentation/resources/solayer-programs",
+                "documentation/resources/litepapers",
+                "documentation/resources/brand-kit"
+            ]
+        },
+        {
+            "group": "Community",
+            "pages": [
+                {
+                    "group": "Epochs",
+                    "pages": [
+                        "documentation/community/epochs/overview",
+                        "documentation/community/epochs/epoch-0",
+                        "documentation/community/epochs/epoch-1",
+                        "documentation/community/epochs/epoch-2"
+                    ]
+                },
+                {
+                    "group": "Solayer Valley Episodes",
+                    "pages": [
+                        "documentation/community/milestone/overview",
+                        {
+                            "group": "Episode 1",
+                            "pages": [
+                                "documentation/community/milestone/episode-1/episode-1",
+                                "documentation/community/milestone/episode-1/eligibility-guide",
+                                "documentation/community/milestone/episode-1/rewards-claiming-guide"
+                            ]
+                        },
+                        {
+                            "group": "Episode 2",
+                            "pages": [
+                                "documentation/community/milestone/episode-2/episode-2",
+                                "documentation/community/milestone/episode-2/eligibility-guide",
+                                "documentation/community/milestone/episode-2/rewards-claiming-guide"
+                            ]
+                        },
+                        {
+                            "group": "Savings Account",
+                            "pages": [
+                                "documentation/community/milestone/savings-account/savings-account",
+                                "documentation/community/milestone/savings-account/unlocking-guide"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "group": "InfiniSVM",
+            "pages": [
+                "infinisvm/infinisvm/overview",
+                "infinisvm/infinisvm/whyhardwareacceleration"
+            ]
+        },
+        {
+            "group": "System Architecture",
+            "pages": [
+                       "infinisvm/system_architecture/solana&svm",
+                        "infinisvm/system_architecture/rdma&infiniband",
+                        "infinisvm/system_architecture/software_defined_network",
+
+                {
+                    "group": "Multi executor",
+                    "pages": [
+                        "infinisvm/system_architecture/multi-executor/scaling_transaction_processing",
+                        "infinisvm/system_architecture/multi-executor/microservice&pipeline",
+                        "infinisvm/system_architecture/multi-executor/transaction_semantic_aware_scheduling",
+                        "infinisvm/system_architecture/multi-executor/sharding_database_with_rdma"
+                    ]
+                },
+                "infinisvm/system_architecture/consensus_scaling"
+            ]
+        },
+        {
+            "group": "Advanced UX",
+            "pages": [
+                "infinisvm/advanced_ux/wallet-agnostic&dapp-first-integration",
+                "infinisvm/advanced_ux/hooks",
+                "infinisvm/advanced_ux/cross-chain_contract_call",
+                "infinisvm/advanced_ux/jumbo_transaction",
+                "infinisvm/advanced_ux/zk-login"
+            ]
+        },
+        {
+            "group": "sSOL & Mega Validator",
+            "pages": [
+                "assets/ssol/overview",
+                "assets/ssol/universal-liquidity-layer",
+                "assets/mega-validator/delegate-tokens.mdx",
+                {
+                    "group": "Mega Validator",
+                    "pages": [
+                        "assets/mega-validator/transaction-acceleration/endoavs",
+                        "assets/mega-validator/transaction-acceleration/swqos",
+                        "assets/mega-validator/yield-optimization"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "group": "sUSD",
+            "pages": [
+                {
+                    "group": "Yield-Bearing Stablecoin",
+                    "pages": [
+                        "assets/susd/yield-bearing-stablecoin/what-is-susd"
+                    ]
+                },
+                {
+                    "group": "Decentralized RFQ Protocol",
+                    "pages": [
+                        "assets/susd/decentralized-rfq-protocol/overview",
+                        "assets/susd/decentralized-rfq-protocol/stakeholders"
+                    ]
+                },
+                {
+                    "group": "Protocol Info",
+                    "pages": [
+                        "assets/susd/protocol-info/litepaper",
+                        "assets/susd/protocol-info/transparency&security",
+                        "assets/susd/protocol-info/oracle&price_feeds.mdx",
+                        "assets/susd/protocol-info/eligibility&risks",
+                        "assets/susd/protocol-info/faqs"
+                    ]
+                }
+            ]
+        },
+        {
+            "group": "Portfolio",
+            "pages": [
+                "assets/portfolio/overview"
+            ]
+        },
+        {
+            "group": "Emerald Card",
+            "pages": [
+                "assets/emerald-card/overview"
+            ]
+        },
+
+        {
+            "group": "Developer Tools",
+            "pages": [
+                "developers/developer-tools/transacion-acceleration",
+                "developers/developer-tools/solana-actions&blinks",
+                "developers/developer-tools/solayer-cli",
+                "developers/developer-tools/solana-agent-kit"
+            ]
+        },
+
+        {
+            "group": "Learn SVM",
+            "pages": [
+                "developers/learn-svm/guideline"
+            ]
+        }
+    ],
+    "footerSocials": {
+        "x": "https://x.com/solayer_labs",
+        "github": "https://github.com/solayer-labs"
+    }
+}
