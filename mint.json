@@ -68,6 +68,12 @@
             ]
         },
         {
+            "group": "$LAYER",
+            "pages": [
+                "documentation/Tokenomics"
+            ]
+        },
+        {
             "group": "Security",
             "pages": [
                 "documentation/security/overview",
