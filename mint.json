@@ -182,12 +182,7 @@
         {
             "group": "sUSD",
             "pages": [
-                {
-                    "group": "Yield-Bearing Stablecoin",
-                    "pages": [
-                        "assets/susd/yield-bearing-stablecoin/what-is-susd"
-                    ]
-                },
+                 "assets/susd/yield-bearing-stablecoin/what-is-susd",
                 {
                     "group": "Decentralized RFQ Protocol",
                     "pages": [
