@@ -167,7 +167,7 @@
             "pages": [
                 "assets/ssol/overview",
                 "assets/ssol/universal-liquidity-layer",
-                "assets/mega-validator/delegate-tokens.mdx",
+                "assets/mega-validator/delegate-tokens",
                 {
                     "group": "Mega Validator",
                     "pages": [
