@@ -274,14 +274,6 @@
         {
             "source": "/documentation/infinisvm",
             "destination": "/documentation/solayer-chain"
-        },
-        {
-            "source": "/emerald-card",
-            "destination": "/solayer-pay"
-        },
-        {
-            "source": "/emerald-card/:slug*",
-            "destination": "/solayer-pay/:slug*"
         }
     ]
 }
